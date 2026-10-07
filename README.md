@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" alt="OlaChill logo" width="120"></p>
+
 # OlaChill for DeepSeek Harness
 
 Find and price Japan travel services from [OlaChill](https://olachill.com) inside DeepSeek Harness (dsh): tours and day trips, activities, attraction and transport tickets, ryokan, private airport transfers, cars with driver, charter buses, helicopter flights, golf and Japan eSIM.
