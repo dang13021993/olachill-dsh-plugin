@@ -1,0 +1,10 @@
+# OlaChill — Japan travel services for DeepSeek Harness (dsh)
+# Add this entry to your cordis.yml (or a profile patch file).
+# Public MCP server, no API key needed.
+- id: mcp-olachill
+  name: '@deepseek-ai/dsh-mcp-client'
+  config:
+    serverName: olachill
+    transport: streamable-http
+    url: https://olachill.com/mcp
+    toolCallTimeoutMs: 30000
