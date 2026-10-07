@@ -1,0 +1,9 @@
+- insert:
+    - id: olachill-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: olachill
+        transport: streamable-http
+        url: https://olachill.com/mcp
+        toolCallTimeoutMs: 30000
+        failOnStartupError: true

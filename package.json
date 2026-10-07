@@ -1,0 +1,17 @@
+{
+  "name": "olachill-dsh-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OlaChill: find and compare Japan travel services - tours, tickets, ryokan, airport transfers, cars with driver, charter buses, helicopter flights, golf and eSIM - through OlaChill's public MCP server.",
+  "license": "MIT",
+  "homepage": "https://olachill.com",
+  "author": "MIA Co., Ltd. <partners@olachill.com>",
+  "keywords": ["dsh", "mcp", "japan", "travel"],
+  "files": ["cordis.patch.yml", "locale/*.json", "README.md", "LICENSE"],
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
